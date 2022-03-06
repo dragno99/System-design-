@@ -1,4 +1,7 @@
 /*  Jai Shree Ram 🚩🚩🚩 */
+
+// Problem statement - https://leetcode.com/discuss/interview-question/860501/text-editor-implementation
+
 #include "bits/stdc++.h"
 
 using namespace std;
