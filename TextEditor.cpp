@@ -36,10 +36,12 @@ public:
     }
     void COPY(string index){
         int idx = stoi(index);
-        if(idx < 0){
-            idx = curr_text.size();
+        if(idx >= 0 && idx < curr_text.size()){
+            clipboard = curr_text.substr(idx);
         }
-        clipboard = curr_text.substr(idx);
+        else{
+            clipboard = "";
+        }
         show("COPY");
     }
     void INSERT(string data){
